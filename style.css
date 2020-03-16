@@ -4,11 +4,65 @@
     box-sizing: border-box;
 }
 
-#contenitore {
+body {
+    background-color: black;
+}
+
+header {
+    background-color: yellow;
+    height: 200px;
+
+    width: 100%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+main {
+    width: 60%;
+    height: 1000px;
+    float: left;
+    background-color: purple;
+    border-radius: 1%;
 
 }
 
+aside {
+    width: 20%;
+    height: 50%;
+    float: left;
+    background-color: pink;
+    border-radius: 1%;
+    margin-bottom: 1%;
+
+}
+
+footer {
+    height: 100px;
+    background-color: blue;
+    width: 60%;
+    margin: auto;
+    margin-top: 1%;
+
+
+}
+
+#contenitore {
+    height: 100%;
+    width: 60%;
+    margin: auto;
+
+
+}
+#contenitore::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 #riga1 {
+    height: 80%;
+    background-color: grey;
 
 }
 
@@ -17,5 +71,8 @@
 }
 
 #wrapper {
-    
+    height: 600px;
+
+
+
 }
