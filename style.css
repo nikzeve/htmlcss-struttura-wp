@@ -5,46 +5,63 @@
 }
 
 body {
-    background-color: black;
+    background-image: url(https://ae01.alicdn.com/kf/HTB1cuDrQFXXXXbsXFXXq6xXFXXX3/HUAYI-Art-tessuto-Marrone-Tavole-di-Legno-Sfondo-Photography-Per-Neonato-Goccia-Background-XT-5619.jpg);
+    background-size: cover;
 }
 
 header {
-    background-color: yellow;
-    height: 200px;
 
+    height: 400px;
     width: 100%;
     margin: auto;
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
+
 main {
-    width: 60%;
-    height: 1000px;
+    width: 46%;
     float: left;
-    background-color: purple;
+    background-color: white;
     border-radius: 1%;
+    padding: 2%;
+    margin-right: 7%;
 
 }
 
 aside {
     width: 20%;
-    height: 50%;
     float: left;
-    background-color: pink;
+    background-color: white;
+    padding: 2%;
     border-radius: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
 
+}
+aside:first-child {
+    margin-right: 7%;
+}
+aside:nth-last-child(2) {
+    float: right;
+    margin-left: 90%;
+}
+
+aside:last-child {
+    float: right;
 }
 
 footer {
     height: 100px;
-    background-color: blue;
+    background-color: white;
     width: 60%;
     margin: auto;
     margin-top: 1%;
+    margin-bottom: 1%;
+}
 
-
+footer p {
+    text-align: center;
+    opacity: 0.4;
 }
 
 #contenitore {
@@ -61,18 +78,39 @@ footer {
 }
 
 #riga1 {
+    position: relative;
     height: 80%;
-    background-color: grey;
+    padding: 4%;
+    background-image: url(https://www.reccom.org/wp-content/uploads/2019/03/foresta-di-Hoia-Baciu-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
+#riga1 p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+}
+
+#menu, #menu li {
+    display: inline-block;
+}
+
+#menu li p {
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    position: relative;
 }
 
 #riga2 {
-
-}
-
-#wrapper {
-    height: 600px;
-
-
+    background-color: grey;
+    text-align: center;
 
 }
